@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Camera } from '@react-three/fiber'
 
 
 const Computers = () => {
