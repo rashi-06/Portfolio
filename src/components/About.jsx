@@ -12,7 +12,6 @@ const About = () => {
   <>
     <motion.div variants={textVariant()}>
       <p className={styles.sectionSubText }>About Me</p>
-      <h1 className={styles.sectionHeadText}>Observation.</h1>
       </motion.div>
   </>
   )
