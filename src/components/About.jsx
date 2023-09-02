@@ -13,6 +13,7 @@ const About = () => {
     <motion.div variants={textVariant()}>
       <p className={styles.sectionSubText }>About Me</p>
       <p>Hi I am Rashi Sharma a Software Engineer</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident laboriosam dolorem perferendis excepturi mollitia porro soluta saepe ut, nobis doloremque quibusdam minus.</p>
       </motion.div>
   </>
   )
