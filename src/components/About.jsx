@@ -14,6 +14,7 @@ const About = () => {
       <p className={styles.sectionSubText }>About Me</p>
       <p>Hi I am Rashi Sharma a Software Engineer</p>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident laboriosam dolorem perferendis excepturi mollitia porro soluta saepe ut, nobis doloremque quibusdam minus.</p>
+      <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, nobis aspernatur!</h2>
       </motion.div>
   </>
   )
