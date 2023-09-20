@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-
+import Resume from "../../resume.pdf";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
 
 const Navbar = () => {
+
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -44,8 +45,7 @@ const Navbar = () => {
         >
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Adrian &nbsp;
-            <span className='sm:block hidden'> | JavaScript Mastery</span>
+            Rashi Sharma &nbsp;
           </p>
         </Link>
 
@@ -61,6 +61,11 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          <button className={`${
+                active === "Download CV" ? "text-white" : "text-secondary"
+              } hover:text-white text-[18px] font-medium cursor-pointer`}>
+            <a href={Resume} download="rashi_sharma_resume" target="_blank" rel="noopener noreferrer">Download CV</a>
+          </button>
         </ul>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
@@ -91,6 +96,11 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+              <button className={`${
+                active === "Download CV" ? "text-white" : "text-secondary"
+              } hover:text-white text-[18px] font-medium cursor-pointer`}>
+                <a href={Resume} download="rashi_sharma_resume" target="_blank" rel="noopener noreferrer">Download CV</a>
+              </button>
             </ul>
           </div>
         </div>

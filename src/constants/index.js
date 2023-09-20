@@ -19,7 +19,7 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
+    letsshop,
     jobit,
     tripguide,
     threejs,
@@ -198,25 +198,30 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "LetsShop",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based e-commerce platform that allows users to buy and even pay for the products online with all the standard e-commerce app functionality.",
       tags: [
         {
-          name: "react",
+          name: "reactjs",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "nextjs",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Sanity",
           color: "pink-text-gradient",
         },
+        
+        {
+          name: "materialUi",
+          color: "blue-text-gradient",
+        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: letsshop,
+      source_code_link: "https://github.com/rashi-06/letsShop-ecom",
     },
     {
       name: "Job IT",
